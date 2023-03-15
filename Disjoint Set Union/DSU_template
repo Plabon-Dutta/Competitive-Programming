@@ -2,15 +2,6 @@
 
 using namespace std;
 
-#define readfirst() (ios_base:: sync_with_stdio(false),cin.tie(NULL));
-
-void OJ() {
-    #ifndef ONLINE_JUDGE
-    freopen("input.txt","r", stdin);
-    freopen("output.txt","w", stdout);
-    #endif
-}
-
 const long long int mod = 1e9+7;
 const long long int N = 2e5+7;
 
@@ -38,17 +29,8 @@ void union_set (int x, int y) {
 }
 
 int main() {
-    auto st = clock();
-    readfirst();
-    OJ();
-    int testcase=1, count=1;
-    cin >> testcase;
-    // cin.ignore();
-    while(testcase--) {
-        // cout << "Case " << count++ << ":\n";
-        
-
-    }
-    cerr << 1.0 * (clock()-st) / CLOCKS_PER_SEC << " Seconds" << '\n';
+    ios_base:: sync_with_stdio(false),cin.tie(NULL);
+    
+    
     return 0;
 }
