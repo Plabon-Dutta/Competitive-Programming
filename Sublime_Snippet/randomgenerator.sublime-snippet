@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+mt19937_64 rng(chrono::steady_clock::now().time_since_epoch().count());
+
+inline long long int gen_random(long long int l, long long int r) {
+    return uniform_int_distribution<long long int>(l, r)(rng);
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>RandomGenerator</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.c++</scope>
+</snippet>
