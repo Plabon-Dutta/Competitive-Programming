@@ -15,7 +15,12 @@ int main() {
         int x;
         cin >> x;
 
-        ans += (mm[m - (x % m)]);
+        if (x % m == 0) {
+            ans += mm[0];
+        }
+        else {
+            ans += (mm[m - (x % m)]);
+        }
         mm[x % m]++;
     }
 
