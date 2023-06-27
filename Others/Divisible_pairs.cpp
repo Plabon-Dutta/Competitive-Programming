@@ -21,6 +21,7 @@ int main() {
         else {
             ans += (mm[m - (x % m)]);
         }
+        
         mm[x % m]++;
     }
 
