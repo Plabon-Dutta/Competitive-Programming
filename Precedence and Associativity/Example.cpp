@@ -7,7 +7,7 @@ int main() {
 
     int a = 5, b = 3, c = 4;
 
-    cout << a + b * c << '\n';  // multiplication has higher higher precedence than addition
+    cout << a + b * c << '\n';  // multiplication has higher precedence than addition
     cout << (a + b) * c << '\n';    // parentheses goes first
     cout << a - b + c << '\n';  // same precedence so follow left to right rule (left associativity)
     cout << (a << b + c) << '\n';   // addition has higher precedence than left shift
