@@ -4,20 +4,20 @@ using namespace std;
 
 class Employee {
 public:
-    string name;
-    string company;
-    int age;
+    string Name;
+    string Company;
+    int Age;
 
-    Employee(string Name, string Company, int Age) {
-        name = Name;
-        company = Company;
-        age = Age;
+    Employee(string name, string company, int age) {
+        Name = name;
+        Company = company;
+        Age = age;
     }
     
     void introduce() {
-        cout << "Name: " << name << '\n';
-        cout << "Company: " << company << '\n';
-        cout << "Age: " << age << '\n';
+        cout << "Name: " << Name << '\n';
+        cout << "Company: " << Company << '\n';
+        cout << "Age: " << Age << '\n';
     }
 };
 
