@@ -20,7 +20,6 @@ int main() {
     cin >> s >> t;
 
     int n = s.size(), m = t.size();
-
     int ans = lcs(s, t, n, m);
 
     cout << ans << '\n';
