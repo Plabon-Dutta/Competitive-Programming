@@ -1,4 +1,4 @@
-#C++14.sublime-build (FOR LINUX) :
+# C++14.sublime-build (FOR LINUX) :
 Build system to directly compile and run c++ programs in sublime on linux. Moreover it uses c++14 directly opposed to the fact that terminal doesnt.
 
 Instructions :
@@ -12,7 +12,7 @@ Tips :
 You can use CTRL + shift + B to directly compile run.
 You can use 3 pane setup to view code, input dile and output file at once (ALT + SHIFT + 3).
 
-#C++14.sublime-build (FOR IOS(Mac Users) ) :
+# C++14.sublime-build (FOR IOS(Mac Users) ) :
 Follow the same steps above just copy the sublime build file corresponding to OS X. You need to have gcc and gtimout installed to be able to run above build system.
 
 To install gcc in IOS :
