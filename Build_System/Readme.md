@@ -6,8 +6,8 @@
 5. Write input in input.in, save and run the code in sublime and you will get output in output.in .
 
 Tips :
-You can use CTRL + shift + B to directly compile run.
-You can use 3 pane setup to view code, input file and output file at once (ALT + SHIFT + 3).
+1. You can use CTRL + shift + B to directly compile run.
+2. You can use 3 pane setup to view code, input file and output file at once (ALT + SHIFT + 3).
 
 # C++14.sublime-build (FOR LINUX) :
 Build system to directly compile and run c++ programs in sublime on linux. Moreover it uses c++14 directly opposed to the fact that terminal doesnt.
